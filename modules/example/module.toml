@@ -1,0 +1,14 @@
+name = "example"
+version = "0.1.0"
+binary = "example"
+capabilities = ["ping", "random_metric"]
+
+[[ui_components]]
+name = "status_panel"
+component_type = "panel"
+endpoint = "/ui/status"
+
+[[ui_components]]
+name = "metric_chart"
+component_type = "chart"
+endpoint = "/ui/chart"
