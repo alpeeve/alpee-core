@@ -1,0 +1,5 @@
+host = "0.0.0.0"
+port = 8001
+modules_dir = "./modules"
+socket_path = "/tmp/alpee-core.sock"
+log_level = "debug" 
