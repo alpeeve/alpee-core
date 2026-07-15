@@ -1,4 +1,5 @@
-/target
 todo.md
 disc.md
-/modules/example/target
+/target
+**/target
+**/*.rs.bk
